@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(24, 238, 227);
+    background-image: url("796835.jpg");
+    background-size: 20%;
 }
 img {
     display: block;
@@ -8,11 +9,18 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+img:hover {
+    width: 25%;
+}
 .main-block {
     background-image: url("background.png");
     padding: 4% 1% 4%;
     border-radius: 5%;
     color: white;
+    text-align: center;
+}
+.link-block {
+    width: 100%;
     text-align: center;
 }
 ul {
@@ -24,3 +32,10 @@ ul {
 li {
     display: inline;
 }
+li a:hover {
+    color: white;
+}
+a[href^="https"] {
+    color: rgb(40, 117, 161);
+}
+
